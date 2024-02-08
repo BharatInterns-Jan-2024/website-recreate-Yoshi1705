@@ -1,0 +1,182 @@
+@font-face {
+        font-family: 'Uber Move';
+        src: url('UberMove-Bold.woff2') format('woff2');
+        font-weight: bold;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Uber Text';
+        src: url('UberMoveTextRegular.otf') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+.third-main{
+         height : 100vh
+         
+}
+.third-header{
+        background-color: black;
+       
+        top : 0;
+        text-align: left;
+        height : 70px;
+}
+.third-header svg{
+        
+        margin-left: 20px;
+        margin-top: 20px;
+}
+.third-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+         
+        width: 400px;
+        margin: auto;
+        padding: 10px;
+}
+.third-content .oa{
+        margin-top: 30px;
+        font-size: 22px;
+        line-height: 25px;
+        font-family: Uber Text;
+        margin-bottom: 15px;
+}
+.align{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 20px;
+        width: 80%;
+        margin-top: 10px;
+}
+.align h3{
+        font-size: 14px;
+        margin-left: 5px;
+        margin-right: 5px;
+}
+.align div{
+        height: 1px;
+    background-color: rgb(216, 213, 213);
+    width: 60%;
+}
+ 
+.input-field{
+        width: 80%;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 0 10px 12px ;
+        
+        background: #dddada;
+}
+.input-field input{
+        width : 92%;
+        height : 100%;
+        border: none;
+        text-decoration: none;
+        outline : none;
+        color: black;
+        background: none;
+}
+.input-field input::placeholder{
+        color: black;
+        font-family: Uber Text;
+        font-size: 15px;
+
+}
+.btn{
+        width: 80%;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        background-color: black;
+         margin-top: 20px;
+        text-align: center;
+}
+.btn h2{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: white;
+        line-height: 50px;
+}
+.google-signup{
+        width: 80%;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        background: #dddada;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: row;
+
+}
+.google-signup h2{
+        font-family: Uber Text;
+        font-size: 16px;
+        margin-left: 5px;
+        
+}
+.google-signup svg{
+        width : 16px;
+}
+.apple-signup{
+        width: 80%;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        background: #dddada;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: row;
+
+}
+.apple-signup h2{
+        font-family: Uber Text;
+        font-size: 16px;
+        margin-left: 5px;
+        
+}
+.apple-signup svg{
+        width : 16px;
+}
+.facebook-signup {
+        width: 80%;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        background: #dddada;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: row;
+
+}
+.facebook-signup h2{
+        font-family: Uber Text;
+        font-size: 16px;
+        margin-left: 5px;
+        
+}
+.facebook-signup svg{
+        width : 16px;
+}
+p{
+        margin-top: 50px;
+        font-family: Uber Text;
+        font-size: 16px;
+        color: black;
+}
