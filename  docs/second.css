@@ -1,0 +1,767 @@
+@font-face {
+        font-family: 'Uber Move';
+        src: url('UberMove-Bold.woff2') format('woff2');
+        font-weight: bold;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Uber Text';
+        src: url('UberMoveTextRegular.otf') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+.container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+        width: 100%;
+        height: 64px;
+}
+.image{
+        width: 8%;
+        margin-left: 60px;
+        display: flex;
+
+        
+}
+.hidden{
+        font-family: Uber Text;
+        font-size: 14px;
+        padding: 12px;
+        display: none;
+}
+.icons{
+        width: calc(20% - 20px); 
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 100%;
+      
+}
+.icon1{
+      width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.icon1 svg{
+        width: 14px;
+        fill: white;
+       
+}
+.icon1 p{
+        font-size: 14px;
+        color: white;
+        margin-left: 5px;
+        font-family: Uber Text;
+}
+.icon2{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.icon2 svg{
+        width: 14px;
+        fill : white;
+}
+.icon2 p{
+        font-size: 14px;
+        color: white;
+        margin-left: 5px;
+        font-family: Uber Text;
+}
+.img-container{
+        background: url("https://www.uber-assets.com/image/upload/v1658225144/assets/30/7d0851-aad0-4583-a029-f339b38a1a9f/original/SSU_hero_2.png");
+        position: relative;
+        background-size: cover;
+        background-position: center;
+       height : 1000px;
+}
+.wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 95%;
+        width: calc(100% - 130px);
+        margin-left: 65px;
+        margin-right: 65px;
+        margin-bottom: 20px;
+        
+}
+.text{
+        width: calc(30% - 10px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left : 10px;
+        
+        position:  absolute;
+        top: 40%;
+}
+.text-header{
+        width: 100%;
+        font-family: Uber Move;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        line-height: 64px;
+        margin-bottom: 20px;
+}
+.text p{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: white;
+        line-height: 24px;
+        margin-bottom: 20px;
+}
+.form{
+        height : 100%;
+        width: 50%;
+        background-color: white;
+        margin-left: auto;
+}
+.form-div{
+        display: flex;
+        flex-direction: column;
+         
+        height: 100%;
+        width: 100%;
+        padding: 40px;
+}
+.form-div h2{
+        font-family: Uber Move;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        color : black;
+        margin-bottom: 20px;
+}
+.anchor{
+        margin-bottom: 18px;
+}
+.anchor a{
+        font-family: Uber Text;
+        font-size: 14px;
+        color: black;
+        font-weight: 500;
+        
+}
+label
+{
+        font-family: Uber Text;
+        font-size: 14px;
+        color: black;
+        font-weight: 500;
+        margin-bottom: 8px;
+        line-height: 16px;
+}
+.text-input{
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        
+        background: #dddada;
+}
+.text-input input{
+        width : 92%;
+        height : 100%;
+        border: none;
+        text-decoration: none;
+        outline : none;
+        color: black;
+        background: none;
+}
+input::placeholder {
+        color: rgb(82, 80, 80);
+        font-size: 16px;
+        line-height: 1.5;
+        font-family: Uber Text; 
+}
+.p-text{
+        font-family: Uber Text;
+        font-size: 12px;
+        color: black;
+        font-weight: 500;
+        margin-bottom: 12px;
+        margin-top: 8px;
+}
+.fields{
+        display: flex;
+         
+        flex-direction: row;
+       
+        
+        margin-bottom: 10px;
+}
+.div-1{
+        width: 50%;
+}
+.div-2{
+        width: 50%;
+        margin-left: 10px;
+}
+.foot{
+        display: flex;
+        
+        height: 64px;
+        
+        width: 100%;
+        margin-top: 10px;
+}
+.foot p{
+        font-family: Uber Text;
+        font-size: 12px;
+        color: black;
+        font-weight: 300;
+        
+}
+.submit{
+        background-color: black;
+        border-radius: 8px;
+        width: 100%;
+        height: 50px;
+        
+}
+.submit p{
+        font-family: Uber Move;
+        font-size: 20px;
+        font-weight: 300;
+        color: white;
+        line-height: 50px;
+        text-align: center;
+}
+
+.section-2{
+        width: 100%;
+        height : 400px;
+       
+        padding: 64px;
+}
+.second-container{
+       
+        height : 280px;
+        width: 100%;
+}
+h2{
+        font-family: Uber Move;
+        font-size: 34px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 20px;
+}
+.child-divs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 180px;
+        width: 100%;
+        margin-top: 40px;
+}
+.child1{
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+}
+.child1 h3{
+        font-family: Uber Move;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 20px;
+}
+.child1 p{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+}
+.child-2{
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+}
+.child-2 h3{
+        font-family: Uber Move;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 20px;
+}
+.child-2 p{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+}
+.child-3{
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+}
+.child-3 h3{
+        font-family: Uber Move;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 20px;
+}
+.child-3 p{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+}
+.section-3{
+        width: calc(100% - 128px);
+        height : 400px;
+        margin: 64px;
+        
+}
+.third-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+}
+.third-text{
+        width: 28%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+}
+.third-text h2{
+        font-family: Uber Move;
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 20px;
+        line-height: 24px;
+}
+.third-text p{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+        line-height: 24px;
+}
+.image-third{
+        width: 60%;
+        height: 100%;
+        background: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_971,h_546/v1622579019/assets/4e/92c1ae-bd8a-48e4-bed4-682f27840da1/original/20190318_UberEats_%28c%29AudreyMa_0736.jpg");
+         background-size: cover;
+        background-position: center;
+}
+.section-4{
+        width: 100%;
+        height : 500px;
+        padding: 55px;
+}
+.main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+}
+.first{
+        width: 33%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         
+}
+.first svg{
+        margin-bottom: 10px;
+        width : 100%;
+}
+.first h3{
+        font-family: Uber Move;
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 20px;
+        line-height: 24px;
+}
+.first p{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+        line-height: 24px;
+}
+.second{
+        height: 330px;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.second svg{
+        margin-bottom: 30px;
+        width : 100%;
+}
+.second h3{
+        font-family: Uber Move;
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 10px;
+        line-height: 24px;
+}
+.second p{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+        line-height: 24px;
+}
+.third{
+        height: 330px;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.third svg{
+        margin-bottom: 10px;
+        width : 100%;
+        overflow: hidden;
+}
+.third h3{
+        font-family: Uber Move;
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 20px;
+        line-height: 24px;
+}
+.third p{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+        line-height: 24px;
+}
+.section-5{
+        width: 100%;
+        height : 480px;
+        padding: 30px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+.content{
+       
+        display:flex;
+        flex-direction: column;
+        width:35%;
+        
+}
+.text-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+       
+
+}
+.content h2{
+        font-family: Uber Move;
+        font-size: 36px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 20px;
+        line-height: 44px;
+}
+.content p{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: white;
+        margin-bottom: 20px;
+        line-height: 24px;
+}
+.image_five{
+        width : 600px;
+        height: 80%;
+        background: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_825,h_549/v1622579485/assets/04/87121d-ff0f-44ce-93f4-a11f39c5a1a5/original/DianaYin.jpg");
+        background-size: cover;
+        background-position: center;
+ }
+ .section-6{
+        width: 100%;
+        height : 500px;
+        padding: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+ }
+ .image-six{
+       
+        width:52%;
+         background-size: cover;
+        background-position: center;
+ }
+ .image-six img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+ }
+ .six-content{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        
+        
+ }
+        .six-content h2{
+                font-family: Uber Move;
+                font-size: 36px;
+                font-weight: 700;
+                color: black;
+                margin-bottom: 20px;
+                line-height: 44px;
+        }
+        .six-content p{
+                font-family: Uber Text;
+                font-size: 16px;
+                color: black;
+                
+                line-height: 24px;
+        }
+.secction-7 {
+        width: calc(100% - 110px);
+        height : 300px;
+         margin : 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         
+
+}
+h3{
+        font-family: Uber Move;
+        font-size: 36px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 20px;
+        line-height: 44px;
+}
+.s-1{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+.s-1 p{
+        font-family: Uber Text;
+        font-size: 16px;
+        color: black;
+        font-weight: 400;
+        line-height: 24px;
+}
+.s-1 svg{
+        width: 16px;
+}
+hr {
+        margin-top: 0;
+}
+.s-8{
+        background-color: black;
+       
+        height: 700px;
+        position: relative;
+
+}
+.eight-container{
+        width: calc(60% - 20px);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+       
+        position: absolute;
+        top: 30%;
+}
+.sec_1 h3{
+       font-family : Uber Move;
+       font-weight : 500;
+       font-size : 18px;
+       line-height : 24px;
+       margin-bottom: 20px;
+       color : white;
+
+}
+.sec_2  h3{
+        font-family : Uber Move;
+        font-weight : 500;
+        font-size : 18px;
+        line-height : 24px;
+        margin-bottom: 20px;
+        color : white;
+}
+.sec_2 p{
+        font-family : Uber Text;
+        font-weight : 500;
+        font-size : 14px;
+        line-height : 20px;
+        margin-bottom: 10px;
+        color : white;
+}
+.sec_3  h3{
+        font-family : Uber Move;
+        font-weight : 500;
+        font-size : 18px;
+        line-height : 24px;
+        margin-bottom: 20px;
+        color : white;
+}
+.sec_3 p{
+        font-family : Uber Text;
+        font-weight : 500;
+        font-size : 14px;
+        line-height : 20px;
+        margin-bottom: 10px;
+        color : white;
+}
+.icons-wrapper{
+        width: calc(100% - 20px);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        position:  absolute;
+        top : 70%;
+}
+.icons-container{
+        display : flex;
+        align-items: center;
+        justify-content : space-between;
+        flex-direction: row;
+       
+        width : 30%;
+        height : 100%;
+
+}
+.icons-container svg{
+        width: 20px;
+        fill : white
+}
+.icons_two{
+        display : flex;
+        align-items: center;
+        justify-content : space-evenly;
+        flex-direction: row;
+        width : 30%;
+}
+.item-1{
+        display : flex;
+        align-items: center;
+        justify-content : space-evenly;
+        flex-direction: row;
+        width :50%
+}
+.item-1 svg{
+        width : 20px;
+        fill : white;
+}
+.item-1 p{
+        font-family: Uber Text;
+        font-size: 13px;
+        font-weight : 400px;
+        color : white;
+
+}
+.item-2{
+        display : flex;
+        align-items: center;
+        justify-content : space-evenly;
+        flex-direction: row;
+        width :50%
+}
+.item-2 svg{
+        width : 18px;
+        fill : white;
+}
+.item-2 p{
+        font-family: Uber Text;
+        font-size: 13px;
+        font-weight : 400px;
+        color : white;
+
+}
+.images{
+        width : 20%;
+        position:  absolute;
+        top : 80%;
+        display : flex;
+        flex-direction: row;
+        align-items: center;
+
+}
+.images img{
+        width : 120px;
+        margin-left: 10px;
+}
+.footer-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position:  absolute;
+        top : 95%;
+        width : calc(100% - 20px);
+        margin-left : 10px;
+        margin-right : 10px;
+}
+.footer-container p{
+        font-family: Uber Text;
+        font-size: 14px;
+        color : white;
+        margin-right: 10px;
+}
+.footer-items{
+        display : flex;
+        flex-direction : row;
+        align-items : center;
+        justify-content : space-between;
+
+}
