@@ -29,6 +29,13 @@
         margin-left: 60px;
         display: flex;
 
+        
+}
+.hidden{
+        font-family: Uber Text;
+        font-size: 14px;
+        padding: 12px;
+        
 }
 .icons{
         width: calc(20% - 20px); 

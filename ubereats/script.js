@@ -11,3 +11,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
             document.getElementsByClassName('layer')[0].classList.remove('modal-open');
         }
     });
+
+    window.onscroll = function() {
+        var scroll = window.scrollY;
+        var div =  document.getElementsByClassName('animation')[0];
+        if (scroll >= 50) { // check if scroll event happened
+            div.style.opacity = "1"; // make div visible
+            div.style.backgroundColor = "white"; 
+        } else {
+          
+            div.style.backgroundColor = "transparent"; 
+            
+        }
+        
+    };
